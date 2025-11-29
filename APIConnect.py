@@ -7,7 +7,7 @@ from pydantic import BaseModel
 from google import genai
 from google.genai.errors import APIError
 
-GEMINI_API_KEY = "SUA_API_KEY_GEMINI"
+GEMINI_API_KEY = "TESTE_SUA_API"
 
 try:
     client = genai.Client(api_key=GEMINI_API_KEY) # O cliente busca a chave automaticamente da variável de ambiente
